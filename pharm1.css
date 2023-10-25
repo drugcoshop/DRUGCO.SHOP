@@ -1,0 +1,129 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.menu-1 {
+    background-color: green;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.menu-1 ul {
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.menu-1 ul li {
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.menu-1 ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.active,
+.menu-1 ul li :hover {
+    color: lightcoral;
+    border-radius: 3px;
+}
+
+.menu-home {
+    display: none;
+}
+
+.menu-1 ul li:hover .menu-home {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    text-align: left;
+}
+
+.menu-1 ul li:hover .menu-home ul {
+    display: block;
+    background-color: cadetblue;
+    margin-top: 28px;
+    margin-left: 60px;
+    
+}
+.menu-product {
+    display: none;
+}
+
+.menu-1 ul li:hover .menu-product {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -25px;
+    text-align: left;
+
+}
+
+.menu-1 ul li:hover .menu-product ul {
+    display: block;
+    background-color: cadetblue;
+    margin-top: 28px;
+
+}
+
+.menu-services {
+    display: none;
+}
+
+.menu-1 ul li:hover .menu-services {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -25px;
+    text-align: left;
+}
+
+.menu-1 ul li:hover .menu-services ul {
+    display: block;
+    background-color: cadetblue;
+    margin-top: 28px;
+}
+
+.menu-aboutus {
+    display: none;
+}
+
+.menu-1 ul li:hover .menu-aboutus{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -30px;
+    text-align: left;
+
+}
+.menu-1 ul li:hover .menu-aboutus ul {
+    display: block;
+    background-color: cadetblue;
+    margin-top: 28px;
+
+}
+.menu-contactus {
+    display: none;
+}
+.menu-1 ul li:hover .menu-contactus {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -38px;
+    text-align: left;
+}
+.menu-1 ul li:hover .menu-contactus ul{
+    display:block;
+    background-color: cadetblue;
+    margin-top: 28px;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+.invoice_head{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.menu_invoice{
+    text-decoration: underline;
+    text-align: center;
+}
+.invoice_form{
+    background-color: aquamarine;
+    padding: 2px;
+    padding-top: 20px;
+}
+.invoice_table{
+    padding: 20px;
+}
+.invoice_table{
+    width: 100%;
+}

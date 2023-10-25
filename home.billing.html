@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home billing</title>
+    <link rel="stylesheet" href="home.billing.css">
+</head>
+
+<body>
+    <div class="invoice_head">
+        <div class="menu_invoice">
+            <h1>INVOICE</h1>
+        </div>
+        <div class="menu_company_name">
+            <p>COMPANY NAME : </p>
+        </div>
+        <div class="menu_company_address">
+            <p>COMPANY ADDRESS : </p>
+        </div>
+        <div class="mennu_phone_no.">
+            <p>PHONE NO. : </p>
+        </div>
+        <div class="gst_no">
+            <p>GST NO. : </p>
+        </div>
+    </div>
+    <div class="invoice_form">
+        <form>
+            <label for="location">LOCATION : </label><br>
+            <select name="location" id="location">
+                <option value=""></option>
+                <option value="L">Bacheli Complex, Post - Bacheli,Dist. - South Bastar Dantewada</option>
+            </select>
+            <label for="store">STORE</label>
+            <select name="store" id="store">
+                <option value="text"></option>
+                <option value="text">PHARMACY</option>
+            </select>
+            <label for="consultant">CONSULTANT : </label>
+            <input type="text" id="consultant">
+            <label for="Customer_name">NAME : </label>
+            <input type="text" id="Customer_name"><br><br><br>
+            <label for="mobile_number"> MOBILE NO. :</label>
+            <input type="number" id="mobile_number">
+            <label for="age">AGE : </label>
+            <input type="number" id="age">
+            <label for="gender">GENDER : </label>
+            <select name="gender" id="gender">
+                <option value=""></option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="T">TG/TS</option>
+            </select>
+
+            <table>
+                <th class="invoice_table">
+                    <tr>
+                        <th for ="sno" width="">S.NO 
+                            <input width= "5%" type="number" id="sno">
+                        </th>
+                        <th for ="mfr"width="">MFR
+                            <input width= "5%" type="text" id="mfr">
+                        </th>
+                        <th for="batch_no"width="">BATCH NO. 
+                            <input width= "5%" type="number" id="batch_no">
+                        </th>
+                        <th for="expiry"width="">EXPIRY
+                            <input width= "5%" type="date" id="expiry">
+                        </th>
+                        <th for = "qty" width="">QTY
+                            <input width= "5%" type="number" id="qty">
+
+                        </th>
+                        <th for ="price" width="">PRICE
+                            <input width= "5%" type="number" id="price">
+                        </th>
+                        <th for="gst" width="">GST
+                            <input width= "5%" type="number" id="gst">
+                        </th>
+                        <th for = "disc" width="">DISC%
+                            <input width= "5%" type="number" id="disc">
+                        </th>
+                        <th for="total" width="">TOTAL
+                            <input width= "5%" type="number" id="total">
+                        </th>
+                    </tr>
+
+                </th>
+            </table>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
