@@ -13,6 +13,9 @@
         <div class="menu_invoice">
             <h1>INVOICE</h1>
         </div>
+        <div class="company_logo">
+            COMPANY LOGO
+        </div>
         <div class="menu_company_name">
             <p>COMPANY NAME : </p>
         </div>
@@ -25,74 +28,50 @@
         <div class="gst_no">
             <p>GST NO. : </p>
         </div>
+        <div class="drug_licences_no">
+            DRUG LICENCES NO. :
+        </div>
     </div>
-    <div class="invoice_form">
-        <form>
-            <label for="location">LOCATION : </label><br>
-            <select name="location" id="location">
-                <option value=""></option>
-                <option value="L">Bacheli Complex, Post - Bacheli,Dist. - South Bastar Dantewada</option>
-            </select>
-            <label for="store">STORE</label>
-            <select name="store" id="store">
-                <option value="text"></option>
-                <option value="text">PHARMACY</option>
-            </select>
-            <label for="consultant">CONSULTANT : </label>
-            <input type="text" id="consultant">
-            <label for="Customer_name">NAME : </label>
-            <input type="text" id="Customer_name"><br><br><br>
-            <label for="mobile_number"> MOBILE NO. :</label>
-            <input type="number" id="mobile_number">
-            <label for="age">AGE : </label>
-            <input type="number" id="age">
-            <label for="gender">GENDER : </label>
-            <select name="gender" id="gender">
+    <div class="info">
+        <h2>INFO :</h2>
+    </div>
+    <div class="space_1"></div>
+    <div class="invoice_particular">
+        <table class="invoice_particular_table">
+            <th> Client name : <input type="text" width="10px"> </th><br>
+            <th> Consultant : <input type="text" width="10px"></th>
+            <th>Mobile : <input type="number" width="10px"></th>
+            <th>Age : <input type="number" width="5px"></th>
+            <th class="gender">Gender : <select name="gender" id="gender">
                 <option value=""></option>
                 <option value="M">Male</option>
                 <option value="F">Female</option>
-                <option value="T">TG/TS</option>
+                <option value="TG/TS">TG/TS</option>
             </select>
-
-            <table>
-                <th class="invoice_table">
-                    <tr>
-                        <th for ="sno" width="">S.NO 
-                            <input width= "5%" type="number" id="sno">
-                        </th>
-                        <th for ="mfr"width="">MFR
-                            <input width= "5%" type="text" id="mfr">
-                        </th>
-                        <th for="batch_no"width="">BATCH NO. 
-                            <input width= "5%" type="number" id="batch_no">
-                        </th>
-                        <th for="expiry"width="">EXPIRY
-                            <input width= "5%" type="date" id="expiry">
-                        </th>
-                        <th for = "qty" width="">QTY
-                            <input width= "5%" type="number" id="qty">
-
-                        </th>
-                        <th for ="price" width="">PRICE
-                            <input width= "5%" type="number" id="price">
-                        </th>
-                        <th for="gst" width="">GST
-                            <input width= "5%" type="number" id="gst">
-                        </th>
-                        <th for = "disc" width="">DISC%
-                            <input width= "5%" type="number" id="disc">
-                        </th>
-                        <th for="total" width="">TOTAL
-                            <input width= "5%" type="number" id="total">
-                        </th>
-                    </tr>
-
-                </th>
-            </table>
-
-        </form>
-
+        </th>
+        </table>
     </div>
+    <div class="space_2"></div>
+    <div class="product">
+        <h3>PRODUCT : </h3>
+    </div>
+    <table width="100%">
+     <tr>
+        <th>No.</th>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <th> <input type="number"></th>
+        <th><input type="text"></th>
+        <th><input type="number"></th>
+        <th><input type="number"></th>
+        <th><input type="number"></th>
+    </tr>
+    </table>
 </body>
 
 </html>
+
