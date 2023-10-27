@@ -8,15 +8,47 @@ body{
 .menu_invoice{
     text-decoration: underline;
     text-align: center;
+    background-color: lightblue;
+    width: 100%;
 }
 .invoice_form{
     background-color: aquamarine;
     padding: 2px;
     padding-top: 20px;
 }
-.invoice_table{
-    padding: 20px;
+.company_logo{
+    float: right;
+    padding-right: 5%;
 }
-.invoice_table{
-    width: 100%;
+h2{
+    text-decoration: underline;
+    color: black;
+    font-size: medium;
+}
+.info{
+    padding: 10px;
+    background-color: lightblue;
+}
+.space_1{
+    background-color: cadetblue;
+    padding: 10px;
+}
+.invoice_particular{
+    background-color: burlywood;
+    padding: 30px;
+}
+.space_2{
+    background-color:cadetblue ;
+    padding: 10px;
+    
+}
+h3{
+    text-decoration: underline;
+    color:black;
+    border-color: brown;
+    font-size: medium;
+}
+.product{
+padding: 10px;
+background-color:lightblue;
 }
