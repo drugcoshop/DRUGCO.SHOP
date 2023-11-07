@@ -20,6 +20,10 @@ body{
     float: right;
     padding-right: 5%;
 }
+.company_logo a{
+    text-decoration: none;
+    color:navy;
+}
 h2{
     text-decoration: underline;
     color: black;
@@ -51,4 +55,9 @@ h3{
 .product{
 padding: 10px;
 background-color:lightblue;
+}
+.print_page{
+    background-color: paleturquoise;
+    padding: 20px;
+    float: right;
 }
