@@ -190,3 +190,47 @@ h1 {
     float: right;
     margin-top: 20px;
 }
+
+.slow_moving a {
+    text-decoration: none;
+    color: black;
+}
+
+.slow_moving :hover {
+    color: lightcoral;
+}
+
+.menu-3 {}
+
+.best_seller {
+
+    padding: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+
+}
+
+.best_seller a {
+    text-decoration: none;
+    color: black;
+}
+
+.best_seller :hover {
+    color: lightcoral;
+}
+
+.expiry {
+    padding: 40px;
+    display: inline-flex;
+    margin-left: 200px;
+}
+
+.expiry a {
+    text-decoration: none;
+    color: black;
+}
+
+.expiry :hover {
+    color: lightcoral;
+
+}
