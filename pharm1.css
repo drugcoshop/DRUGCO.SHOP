@@ -54,8 +54,9 @@ h1 {
     background-color: cadetblue;
     margin-top: 28px;
     margin-left: 60px;
-    
+
 }
+
 .menu-product {
     display: none;
 }
@@ -98,7 +99,7 @@ h1 {
     display: none;
 }
 
-.menu-1 ul li:hover .menu-aboutus{
+.menu-1 ul li:hover .menu-aboutus {
     display: block;
     position: absolute;
     margin-top: 15px;
@@ -106,15 +107,18 @@ h1 {
     text-align: left;
 
 }
+
 .menu-1 ul li:hover .menu-aboutus ul {
     display: block;
     background-color: cadetblue;
     margin-top: 28px;
 
 }
+
 .menu-contactus {
     display: none;
 }
+
 .menu-1 ul li:hover .menu-contactus {
     display: block;
     position: absolute;
@@ -122,8 +126,67 @@ h1 {
     margin-left: -38px;
     text-align: left;
 }
-.menu-1 ul li:hover .menu-contactus ul{
-    display:block;
+
+.menu-1 ul li:hover .menu-contactus ul {
+    display: block;
     background-color: cadetblue;
     margin-top: 28px;
+}
+
+.menu-2 {}
+
+.product_d {
+    display: inline-flex;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.product_d a {
+    text-decoration: none;
+    color: black;
+}
+
+.product_d :hover {
+    color: lightcoral;
+}
+
+.income {
+    display: inline-flex;
+    padding: 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.income a {
+    text-decoration: none;
+    color: black;
+}
+
+.income :hover {
+    color: lightcoral;
+}
+
+.fast_moving {
+
+    display: inline-flex;
+    padding: 40px;
+    margin-left: 190px;
+
+}
+
+.fast_moving a {
+    text-decoration: none;
+    color: black;
+}
+
+.fast_moving :hover {
+    color: lightcoral;
+}
+
+.slow_moving {
+
+    display: inline-flex;
+    padding: 40px;
+    float: right;
+    margin-top: 20px;
 }
